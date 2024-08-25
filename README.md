@@ -1,75 +1,25 @@
-# Git & GitHub Notes
+# Git & GitHub step by step process:
 
-Welcome to the Git & GitHub Notes repository! This repository contains detailed notes to help you understand the concepts and usage of Git and GitHub. Whether you are a beginner or looking to refresh your knowledge, these notes will provide valuable insights.
+1. download git from https://git-scm.com/downloads and install           
 
-## Table of Contents
+2. Run `git` command in cmd to see git is installed or not.      
 
-1. [Introduction to Git](#introduction-to-git)
-2. [Setting Up Git](#setting-up-git)
-3. [Basic Git Commands](#basic-git-commands)
-4. [Working with Branches](#working-with-branches)
-5. [Understanding GitHub](#understanding-github)
-6. [Collaborating with GitHub](#collaborating-with-github)
-7. [Advanced Git Techniques](#advanced-git-techniques)
-8. [Troubleshooting and Tips](#troubleshooting-and-tips)
+3. Give user name & email to git using :
+       a - Open cmd through run as administrator.
+       b- `git config --global user.name "your name"`
+       c- `git config --global user.email "your email"`
+4. Download code from GitHub using `git clone URL_OF_REPOSITORY`
+5. Bring changes to your local repository from GitHub using
+       `git pull`
 
-## Introduction to Git
+## Push code to GitHub
 
-- What is Git?
-- History of Git
-- Key Concepts in Git
+6- Check git status using
+       `git status`
+7- Add files to tracking area (Converting red signal to  green signal)
+	`git add .`
+8- make bundle of your code using (commit = prew code + new changes)
+        `git commit -m "commit name`
+9- Finally, Run `git push origin main`
 
-## Setting Up Git
-
-- Installing Git
-- Configuring Git
-- Initializing a Repository
-
-## Basic Git Commands
-
-- `git init`
-- `git add`
-- `git commit`
-- `git status`
-- `git log`
-
-## Working with Branches
-
-- Creating Branches
-- Switching Branches
-- Merging Branches
-- Resolving Conflicts
-
-## Understanding GitHub
-
-- What is GitHub?
-- Creating a GitHub Account
-- Repositories in GitHub
-
-## Collaborating with GitHub
-
-- Forking Repositories
-- Pull Requests
-- Cloning Repositories
-- Pushing and Pulling Changes
-
-## Advanced Git Techniques
-
-- Rebasing
-- Stashing
-- Git Tags
-- Using `.gitignore`
-
-## Troubleshooting and Tips
-
-- Common Git Issues
-- Best Practices for Git and GitHub
-- Useful Git Commands Cheat Sheet
-
-## Contributing
-
-If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
-
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+                            Best of luck
